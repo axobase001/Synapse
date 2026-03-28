@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.synapse/
+context/feedback-history/
+*.db
+.env

@@ -1,0 +1,20 @@
+{
+  "name": "synapse-forge",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test __tests__/*.test.ts",
+    "forge": "tsx runtime/cli.ts",
+    "forge:run": "tsx runtime/cli.ts run",
+    "forge:plan": "tsx runtime/cli.ts plan",
+    "forge:status": "tsx runtime/cli.ts status",
+    "forge:resume": "tsx runtime/cli.ts resume"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0"
+  }
+}
